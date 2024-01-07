@@ -11,7 +11,7 @@ securityEvent
 
 NOTE:This query will search the SecurityEvent table for event ID 4625 (failed login attempts) and filter the results to display entries where the IP address matches the specified value. Adjust the columns in the project statement as per your requirement.
 Remember, KQL queries in Microsoft Sentinel allow you to analyze and manipulate data effectively. You can filter, project, join, summarize, and perform various operations on data using KQL syntax.
-Feel free to modify this query based on your specific use case or data schema in Sentinel.![image](https://github.com/AmadouMan/Threat-Intelligence-in-Microsoft-sentinel/assets/138404140/1ff2c879-5719-4996-a2f5-69e582e5c699)
+Feel free to modify this query based on your specific use case or data schema in Sentinel.
 
 
 Alert you when an anomalous number of resources is created in AZURE Activity
@@ -35,14 +35,14 @@ Brute Force Attacks: Repeatedly trying various combinations of credentials to ga
 Honeytokens: Honeytokens are pieces of fake or decoy data placed within a system to detect unauthorized access or monitor potential security breaches. They resemble real data but are not used in legitimate operations. Honeytokens are strategically placed within a network, database, or system to attract attackers. If accessed or triggered, they signal a security breach, helping security teams identify and respond to potential threats. Honeytokens can be in the form of unused credentials, fake files, or false database entries.
 
 Sensitive Tags: Sensitive tags or sensitive data labels are applied to specific information within a system or database that requires special protection due to its confidentiality, privacy, or regulatory compliance. These tags help identify and categorize sensitive information, such as personally identifiable information (PII), financial records, health data, intellectual property, etc. By labeling data with sensitive tags, organizations can implement strict access controls, encryption, and other security measures to prevent unauthorized access or leakage of sensitive information.
-Understanding these concepts is crucial for maintaining robust cybersecurity practices, safeguarding sensitive data, and detecting potential security threats within an organization's systems and networks.![image](https://github.com/AmadouMan/Threat-Intelligence-in-Microsoft-sentinel/assets/138404140/9e3629cd-c0c5-4ade-959c-81088d969a1d)
+Understanding these concepts is crucial for maintaining robust cybersecurity practices, safeguarding sensitive data, and detecting potential security threats within an organization's systems and networks.![image]
 
        Daily Automation Task
  Threat Hunting: Automate the process of searching for potential threats and anomalies within the collected data using predefined queries or custom hunting queries.
  
  Alert Prioritization and Triage: Automatically prioritize and triage alerts based on severity, potential impact, or relevance. This can involve categorizing alerts and assigning them to appropriate teams or workflows.
 
-Automated Remediation: Implement automated response actions to address security threats or incidents. For instance, automatically blocking a malicious IP address or isolating a compromised system.![image](https://github.com/AmadouMan/Threat-Intelligence-in-Microsoft-sentinel/assets/138404140/ad56bfee-aa4c-426e-b1c4-ec1bcdaa25a0)
+Automated Remediation: Implement automated response actions to address security threats or incidents. For instance, automatically blocking a malicious IP address or isolating a compromised system.![image]
 
 Fallow me for more tips ....    WORK FAST AND SMART
 
