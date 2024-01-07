@@ -46,7 +46,9 @@ Understanding these concepts is crucial for maintaining robust cybersecurity pra
  
  Alert Prioritization and Triage: Automatically prioritize and triage alerts based on severity, potential impact, or relevance. This can involve categorizing alerts and assigning them to appropriate teams or workflows.
 
-Automated Remediation: Implement automated response actions to address security threats or incidents. For instance, automatically blocking a malicious IP address or isolating a compromised system.![image]
+Automated Remediation: Implement automated response actions to address security threats or incidents. For instance, automatically blocking a malicious IP address or isolating a compromised system.
+
+[Practical Threat Intelligence -1.pdf](https://github.com/AmadouMan/Threat-Intelligence-in-Microsoft-sentinel/files/13853850/Practical.Threat.Intelligence.-1.pdf)
 
 Fallow me for more tips ....    WORK FAST AND SMART
 
