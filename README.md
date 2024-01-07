@@ -4,6 +4,7 @@ KQL for Threat Hunt, Different attacks, Automations
 Hunting with KQL
 
 -failed login attemps from a specific IP address
+
 securityEvent
 |where EventID == 4626//4626 represents failed login attemp event
 |where IPAddress =="x.x.x.x"// Replace x.x.x.x with the specific IP addres
@@ -14,12 +15,14 @@ Remember, KQL queries in Microsoft Sentinel allow you to analyze and manipulate 
 Feel free to modify this query based on your specific use case or data schema in Sentinel.
 
 
-Alert you when an anomalous number of resources is created in AZURE Activity
+-Alert you when an anomalous number of resources is created in AZURE Activity
+
 | where OperationNameValue == "MICROSOFT.COMPUTER/VIRTUALMACHINE/WRITE" or OperationNameValue == "MICROSOFT RESOURCES/DEPLOYEMENTS/WRITE"
 |where ActivityStatusValue == " Succeedded"
 |make-series dcount(ResourceId) default=0 on EventSubmissionTimestamp in range(ago(7d),now(),1d)by caller
 
-Here are Attack and their explanations
+                 Here are Attack and their explanations
+                 
 Identity-Based Attacks:Identity-based attacks focus on exploiting vulnerabilities related to user identities, credentials, or personal information. These attacks aim to compromise, steal, or misuse sensitive data, often for financial gain or unauthorized access. Some common types of identity-based attacks include:
 
 Phishing: Deceptive attempts to acquire sensitive information by posing as a trustworthy entity.
