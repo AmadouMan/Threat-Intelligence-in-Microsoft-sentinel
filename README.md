@@ -6,6 +6,7 @@ Hunting with KQL
 -failed login attemps from a specific IP address
 
 securityEvent
+
 |where EventID == 4626//4626 represents failed login attemp event
 |where IPAddress =="x.x.x.x"// Replace x.x.x.x with the specific IP addres
 |where TimeGenerated, Account, IPAddress, computer
