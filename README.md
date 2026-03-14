@@ -1,4 +1,4 @@
-# Threat-Intelligence-in-Microsoft-sentinel
+# Threat-Detection-in-Microsoft-sentinel
 KQL for Threat Hunt, Different attacks, Automations 
 
 Hunting with KQL
